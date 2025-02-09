@@ -5,8 +5,8 @@ const pool = new Pool({
   user: 'postgres',
   host: 'autorack.proxy.rlwy.net',
   database: 'railway',
-  password: 'XiLeIpcHsRxJJGvtSLqAMYwKupfRerFL',
-  port: '35726',
+  password: 'pTXKOSGKtYAEOpWvkYXutoJjNfBDXuXR',
+  port: '5432',
 });
 
 export default pool;
