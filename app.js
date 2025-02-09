@@ -1,11 +1,10 @@
-import express, { json } from 'express';
-import pool from './db.js';
-import userRoutes from './index.js';
-
+const express = require('express');
+const pool = require('./db');
+const userRoutes = require('./index');
 
 const app = express();
 
-app.use(json());
+app.use(express.json());
 
 pool.query('SELECT NOW()', (err, res) => {
   if (err) {
