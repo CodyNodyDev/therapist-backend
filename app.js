@@ -7,7 +7,7 @@ const app = express();
 
 // Настройка CORS
 app.use(cors({
-    origin: 'https://ваш-фронтенд.домен',
+    origin: 'https://therapist-backend-production.up.railway.app',
     methods: ['GET', 'POST', 'PATCH', 'DELETE'],
     allowedHeaders: ['Content-Type', 'Authorization']
 }));
